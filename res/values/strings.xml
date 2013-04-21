@@ -1554,7 +1554,7 @@
     <string name="vibrate_outgoing">Vibrate on answer</string>
     <string name="vibrate_call_waiting">Vibrate on call waiting</string>
     <string name="vibrate_hangup">Vibrate on hang up</string>
-    <string name="vibrate_45">Vibrate every 45 seconds</string>
+    <string name="vibrate_45">Vibrate every minute</string>
     <string name="vibrate_45_sum">Vibrates at the 45 second mark of every minute during outgoing calls</string>
     <string name="rejected_as_missed">Rejected calls as missed</string>
     <string name="rejected_as_missed_sum">Mark rejected calls as \'missed\' rather than \'incoming\' in the call log</string>
@@ -1625,12 +1625,24 @@
     <string name="add_to_blacklist_message">Future calls from %s will be blocked</string>
     <string name="remove_blacklist_number_title">Remove number</string>
     <string name="remove_blacklist_number">Do you want to remove %s from the blacklist?</string>
+    <string name="blacklist_private_numbers_title">Private numbers</string>
+    <string name="blacklist_private_numbers_summary">Block incoming calls from private numbers</string>
 
     <!-- Blacklist notifications -->
     <string name="blacklist_notification">Blocked a call from %s</string>
+    <string name="blacklist_notification_private_number">Blocked a call from a private number</string>
     <string name="unblock_number">Unblock</string>
 
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">Blacklist</string>
+
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Voice quality</string>
+    <string name="voice_quality_summary">Using profile: <xliff:g id="value">%s</xliff:g></string>
+    <!-- Do not remove those, they're used from overlays. -->
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Clear</string>
+    <string name="voice_quality_entry_crisp">Crisp</string>
+    <string name="voice_quality_entry_bright">Bright</string>
 
 </resources>
